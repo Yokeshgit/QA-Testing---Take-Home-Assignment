@@ -1,0 +1,56 @@
+Handling/Responses:
+-------------------
+*All response fields are in camelCase: userName, envelopeId.
+*All values that represent constants or enumerations, except for errors, are given in lowercase: status: 'created'.
+*Error constants are in uppercase.
+*Fields with uri in their name are relative to the base URL.
+*Fields with url in their name are fully qualified URLs.
+*All times are in UTC.
+
+Consistency/Quality:
+--------------------
+*Consistency is an important part of interface design
+*changing the rules for how something works is an unpleasant surprise and can lead to frustration.
+*The cost of interface inconsistency is especially high in the API design space, where every inconsistency leads to more code being written to handle those one-off edge cases.
+*This type of usability bug can really hurt the API developer experience.
+
+
+Request Results:
+----------------
+*The API result action uses the variables in the destination context to prepare the final response to the client.
+*So it will be most efficiently to understand and using the end user.
+*end user should understand api easily and comfortable to use it.
+
+
+Security/Risk
+---------------
+*A foundational element of innovation in today’s app-driven world is the API. 
+*From banks, retail and transportation to IoT, autonomous vehicles and smart cities, APIs are a critical part of modern mobile, SaaS and web applications and can be found in customer-facing, partner-facing and internal applications.
+*So API Security focuses on strategies and solutions to understand and mitigate the unique vulnerabilities and security risks of Application Programming Interfaces.
+*we can improve our Security system to safe our costemer details.
+*it could be increasing the customer and the reputation of our Api.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
